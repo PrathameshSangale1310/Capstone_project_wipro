@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="222.458" tests="17" skipped="0" failures="0" errors="0" timestamp="2025-09-06T11:32:55.330529Z">
+<testcase classname="check user is able to register with valid credetials" name="successful register" time="8.679">
+<system-out><![CDATA[
+Given home page should be open in default browser...........................passed
+When click on register link on the top......................................passed
+And click on gender checkbox................................................passed
+And click on first name field and enter first name..........................passed
+And click on last name field and enter last name............................passed
+And click on email field and enter email....................................passed
+And click on password field and enter password..............................passed
+And click on confirm password field and enter cpassword.....................passed
+And click on register button................................................passed
+Then register successfully..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to login with valid credetials" name="successful login" time="7.426">
+<system-out><![CDATA[
+Given login page should be open in default browser..........................passed
+When click on email textbox and enter email.................................passed
+And click on password textbox and enter password............................passed
+And click on login button...................................................passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to add products in cart and update it" name="Product added to cart and updation successfull" time="17.306">
+<system-out><![CDATA[
+Given home page is opens in default the browser.............................passed
+When user clicks on searchbox and type in the searchbox.....................passed
+And user clicks search button...............................................passed
+And click on the add to cart icon...........................................passed
+And user click on shopping carts icon.......................................passed
+And user clicks on qty box and enters qty...................................passed
+And user clicks on gift wrapping dropdown and select no.....................passed
+And user clicks on coupon and enter coupon..................................passed
+And user clicks on checkbox.................................................passed
+Then product is added in cart...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to view particular apparel category" name="successful opening of apparel tabs" time="6.561">
+<system-out><![CDATA[
+Given user opens home page in default browser...............................passed
+When user clicks on apparel tab.............................................passed
+And user clicks on any apparel category.....................................passed
+Then user able to open particular apparel category..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to view books tab" name="successful opening of books tab" time="16.073">
+<system-out><![CDATA[
+Given user opens the home page in the default browser.......................passed
+When user clicks on books tab...............................................passed
+And user clicks on the sort by filter and apply it..........................passed
+And user clicks on the display filter and apply it..........................passed
+And user clicks on the price by filter and apply it.........................passed
+And user clicks on the list view icon.......................................passed
+And user clicks on any books category.......................................passed
+And user clicks on the add to cart button...................................passed
+Then user able to open view books tab.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to particular computers category" name="successful opening of computers tabs" time="19.23">
+<system-out><![CDATA[
+Given home page open in the default browser.................................passed
+When user clicks on compuetrs tab...........................................passed
+And user clicks on any category.............................................passed
+Then user able to open particular computers category........................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to view digital downloads page" name="successful opening of digital downloads tabs" time="20.214">
+<system-out><![CDATA[
+Given user opens the home page in default browser...........................passed
+When user clicks on digital downloads tab...................................passed
+And user clicks on sort by filter and apply it..............................passed
+And user clicks on display filter and apply it..............................passed
+And user clicks on list view icon...........................................passed
+And user clicks on any digital downloads category...........................passed
+And user clicks on add to cart button.......................................passed
+Then user able to open particular digital downloads category................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to particular electronics category" name="successful opening of electronics tabs" time="6.485">
+<system-out><![CDATA[
+Given user opens home page default browser..................................passed
+When user clicks on electronics tab.........................................passed
+And user clicks on any electronics category.................................passed
+Then user able to open particular electronics category......................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to view gifts page" name="successful opening of gifts tabs" time="13.093">
+<system-out><![CDATA[
+Given user opens the home page in default browsers..........................passed
+When user clicks on gifts tab...............................................passed
+And user clicks on sort by filter and apply it then.........................passed
+And user clicks on display filter and apply it then.........................passed
+And user clicks on list views icon..........................................passed
+And user clicks on any gifts category.......................................passed
+And user clicked on add to cart button......................................passed
+Then user able to open particular gifts category............................passed
+]]></system-out>
+</testcase>
+<testcase classname="check all home page items work properly" name="Home page features working properly" time="39.164">
+<system-out><![CDATA[
+Given home page is open in the default browser..............................passed
+When click on currency dropdown and user able to change currency............passed
+And click on news link and check redirection................................passed
+And click on details and check redirection..................................passed
+And click on view news archieve and check redirection.......................passed
+And click on footer links and check redirection.............................passed
+And click on social media icons and check redirection.......................passed
+And click on nopCommerce link and check redirection.........................passed
+And click on newsletter textbox and enter email.............................passed
+And click on subscribe button...............................................passed
+Then all home pages should work properly....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to view jewelry tab" name="successful opening of jewelry tab" time="11.872">
+<system-out><![CDATA[
+Given user opens the home page on the default browser.......................passed
+When user clicks on jewelry tab.............................................passed
+And user clicks on the sort by filter and then apply it.....................passed
+And user clicks on the display filter and then apply it.....................passed
+And user clicks on the price by filter and then apply it....................passed
+And user clicks on the list view icons......................................passed
+And user clicks on any jewelry category.....................................passed
+And user clicked on the add to cart button..................................passed
+Then user able to open view jewelry tab.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to remove products from cart" name="Product removed from cart successfull" time="11.078">
+<system-out><![CDATA[
+Given home page is opened in default the browser............................passed
+When user clicks on searchbox and type itemname in the searchbox............passed
+And user clicked search button..............................................passed
+And user click on the add to cart icon......................................passed
+And user click on shopping cart icon........................................passed
+And user clicks on remove cross icon........................................passed
+Then product is removed from the cart.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able serach" name="Seraching is possible - #1.1" time="8.801">
+<system-out><![CDATA[
+Given home page should be open in the default browser.......................passed
+When click on searchbox and type iphone.....................................passed
+And click on search button..................................................passed
+Then User should be able to search..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able serach" name="Seraching is possible - #1.2" time="5.657">
+<system-out><![CDATA[
+Given home page should be open in the default browser.......................passed
+When click on searchbox and type 3523.......................................passed
+And click on search button..................................................passed
+Then User should be able to search..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able serach" name="Seraching is possible - #1.3" time="7.74">
+<system-out><![CDATA[
+Given home page should be open in the default browser.......................passed
+When click on searchbox and type $^)(.......................................passed
+And click on search button..................................................passed
+Then User should be able to search..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able serach" name="Seraching is possible - #1.4" time="5.658">
+<system-out><![CDATA[
+Given home page should be open in the default browser.......................passed
+When click on searchbox and type iphone12...................................passed
+And click on search button..................................................passed
+Then User should be able to search..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to add product in wishlist" name="Product added to wishlist successful" time="16.832">
+<system-out><![CDATA[
+Given home page open in default browser.....................................passed
+When click on serachbox and type something..................................passed
+And click on the search button..............................................passed
+And click on wishlist icon..................................................passed
+And user click on wishlist link.............................................passed
+And user clicks on qty box and enters the qty...............................passed
+And user clicks on update wishlist button...................................passed
+And user clicks on add to cart checkbox.....................................passed
+And user click on an add to cart button.....................................passed
+Then product added in wishlist..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
