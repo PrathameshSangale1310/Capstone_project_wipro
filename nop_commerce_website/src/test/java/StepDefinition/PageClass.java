@@ -121,7 +121,7 @@ public class PageClass {
 	
 	public void reg_email_in() {
 		driver.findElement(reg_email).click();
-		driver.findElement(reg_email).sendKeys("abcdefghijklmn@gmail.com");
+		driver.findElement(reg_email).sendKeys("zyxcba.com");
 	}
 	
 	public void reg_pass_in() {
