@@ -35,12 +35,25 @@
     <artifactId>cucumber-testng</artifactId>
     <version>7.27.2</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.11.0</version>
-    <scope>test</scope>
+  <groupId>org.seleniumhq.selenium</groupId>
+  <artifactId>selenium-java</artifactId>
+  <version>4.25.0</version> <!-- use the latest stable -->
 </dependency>
 </dependencies>
+<build>
+<plugins>
+<!-- Force Surefire to run JUnit TestRunner -->
+<plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-surefire-plugin</artifactId>
+<version>3.2.5</version>
+<configuration>
+<includes>
+<include>**/TestRunner.java</include>
+</includes>
+</configuration>
+</plugin>
+</plugins>
+</build>
 </project>
