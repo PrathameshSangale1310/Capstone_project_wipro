@@ -89,7 +89,7 @@ public class PageClass {
 	public void email_in() {
 		driver.findElement(login_link).click();
 		driver.findElement(demoemeil).click();
-		driver.findElement(demoemeil).sendKeys("abcdefghij@gmail.com");	
+		driver.findElement(demoemeil).sendKeys("gjdfgjsvh@gmail.com");	
 	}
 	
 	public void pass_in() {
@@ -121,7 +121,7 @@ public class PageClass {
 	
 	public void reg_email_in() {
 		driver.findElement(reg_email).click();
-		driver.findElement(reg_email).sendKeys("zyxcba.com");
+		driver.findElement(reg_email).sendKeys("gjdfgjsvh@gmail.com");
 	}
 	
 	public void reg_pass_in() {

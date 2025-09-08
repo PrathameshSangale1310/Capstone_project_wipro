@@ -53,8 +53,9 @@ public class Addtocart {
 	}
 
 	@And("user clicks on coupon and enter coupon")
-	public void user_clicks_on_coupon_and_enter_coupon() {
+	public void user_clicks_on_coupon_and_enter_coupon() throws InterruptedException {
 	    pg.coupon_click();
+	    Thread.sleep(1000);
 	}
 
 	@And("user clicks on checkbox")
