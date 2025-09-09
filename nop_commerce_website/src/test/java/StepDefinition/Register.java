@@ -30,29 +30,29 @@ public class Register {
 	    pg.gender_click();
 	}
 
-	@And("click on first name field and enter first name")
-	public void click_on_first_name_field_and_enter_first_name() {
-	    pg.fname_in();
+	@And("^click on first name field and enter (.*)$")
+	public void click_on_first_name_field_and_enter_firstname(String firstname) {
+	    pg.fname_in(firstname);
 	}
 
-	@And("click on last name field and enter last name")
-	public void click_on_last_name_field_and_enter_last_name() {
-	    pg.lname_in();
+	@And("click on last name field and enter (.*)$")
+	public void click_on_last_name_field_and_enter_lastname(String lastname) {
+	    pg.lname_in(lastname);
 	}
 
-	@And("click on email field and enter email")
-	public void click_on_email_field_and_enter_email() {
-	    pg.reg_email_in();
+	@And("click on email field and enter (.*)$")
+	public void click_on_email_field_and_enter_email(String email) {
+	    pg.reg_email_in(email);
 	}
 
-	@And("click on password field and enter password")
-	public void click_on_password_field_and_enter_password() {
-	    pg.reg_pass_in();
+	@And("click on password field and enter (.*)$")
+	public void click_on_password_field_and_enter_password(String password) {
+	    pg.reg_pass_in(password);
 	}
 
-	@And("click on confirm password field and enter cpassword")
-	public void click_on_confirm_password_field_and_enter_cpassword() {
-	    pg.reg_cpass_in();
+	@And("click on confirm password field and enter (.*)$")
+	public void click_on_confirm_password_field_and_enter_cpassword(String cpassword) {
+	    pg.reg_cpass_in(cpassword);
 	}
 	
 	@And("click on register button")

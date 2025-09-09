@@ -86,15 +86,15 @@ public class PageClass {
 	}
 	
 	
-	public void email_in() {
+	public void email_in(String email) {
 		driver.findElement(login_link).click();
 		driver.findElement(demoemeil).click();
-		driver.findElement(demoemeil).sendKeys("gjdfgjsvh@gmail.com");	
+		driver.findElement(demoemeil).sendKeys(email);	
 	}
 	
-	public void pass_in() {
+	public void pass_in(String password) {
 		driver.findElement(pass).click();
-		driver.findElement(pass).sendKeys("abc123");	
+		driver.findElement(pass).sendKeys(password);	
 	}
 	
 	public void login_button_click() {
@@ -109,29 +109,29 @@ public class PageClass {
 		driver.findElement(male).click();
 	}
 	
-	public void fname_in() {
+	public void fname_in(String firstname) {
 		driver.findElement(fname).click();
-		driver.findElement(fname).sendKeys("Prathameshh");
+		driver.findElement(fname).sendKeys(firstname);
 	}
 	
-	public void lname_in() {
+	public void lname_in(String lastname) {
 		driver.findElement(lname).click();
-		driver.findElement(lname).sendKeys("Sangale");
+		driver.findElement(lname).sendKeys(lastname);
 	}
 	
-	public void reg_email_in() {
+	public void reg_email_in(String email) {
 		driver.findElement(reg_email).click();
-		driver.findElement(reg_email).sendKeys("gjdfgjsvh@gmail.com");
+		driver.findElement(reg_email).sendKeys(email);
 	}
 	
-	public void reg_pass_in() {
+	public void reg_pass_in(String password) {
 		driver.findElement(reg_pass).click();
-		driver.findElement(reg_pass).sendKeys("abc123");
+		driver.findElement(reg_pass).sendKeys(password);
 	}
 	
-	public void reg_cpass_in() {
+	public void reg_cpass_in(String cpassword) {
 		driver.findElement(reg_cpass).click();
-		driver.findElement(reg_cpass).sendKeys("abc123");
+		driver.findElement(reg_cpass).sendKeys(cpassword);
 	}
 	
 	public void reg_button_click() {

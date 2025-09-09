@@ -20,14 +20,14 @@ public class Login {
 		driver.manage().window().maximize();
 	}
 
-	@When("click on email textbox and enter email")
-	public void click_on_email_textbox_and_enter_email() {
-	    pg.email_in();
+	@When("^click on email textbox and enter (.*)$")
+	public void click_on_email_textbox_and_enter_email(String email) {
+	    pg.email_in(email);
 	}
 
-	@And("click on password textbox and enter password")
-	public void click_on_password_textbox_and_enter_password() {
-	    pg.pass_in();
+	@And("^click on password textbox and enter (.*)$")
+	public void click_on_password_textbox_and_enter_password(String password) {
+	    pg.pass_in(password);
 	}
 
 	@And("click on login button")
